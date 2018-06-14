@@ -3,6 +3,8 @@ import datetime
 import schedule
 import time
 
+class setUp:
+    def __init__(self)
 def getFile(ftp, filename):
     try:
         ftp.retrbinary("RETR " + filename ,open(filename, 'wb').write)
